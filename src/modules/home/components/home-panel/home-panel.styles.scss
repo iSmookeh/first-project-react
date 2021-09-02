@@ -1,0 +1,15 @@
+.carousel-item{
+    height: 160px;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;  
+} 
+ .container{
+     display: flex;
+     gap: 8px;
+ }
+ .add-button{
+     display: flex;
+     justify-content: flex-end;
+     width: 500px;
+ }
