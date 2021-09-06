@@ -1,15 +1,31 @@
-.carousel-item{
-    height: 160px;
-    color: #fff;
-    line-height: 160px;
-    text-align: center;  
-} 
- .container{
-     display: flex;
-     gap: 8px;
- }
- .add-button{
-     display: flex;
-     justify-content: flex-end;
-     width: 500px;
- }
+.carousel-item {
+  height: 160px;
+  color: #fff;
+  line-height: 160px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 8px;
+}
+.add-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 500px;
+}
+.excluir-img {
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4px;
+}
+.X{
+    cursor: pointer;
+    color: red;
+    font-weight: 700;
+}
+.deleteComment{
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
